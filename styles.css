@@ -1,0 +1,177 @@
+html {
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+
+main {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #eee;
+    border-radius: 1%
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 90%;
+    border-radius: 3px;
+}
+
+#img-div {
+    background-color: #e0584f;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 550;
+}
+
+.title-header {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.title-header > p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: #e0584f;
+}
+
+.name {
+    font-style: italic;
+    font-size: 0.8em;
+    color: black;   
+}
+.early-life {
+    text-align: left;
+    font-size: 1.1em;
+    width: 70%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.divider {
+    border-left: 2px solid #e0584f; /* Specify border-left for vertical line */
+    height: 30px; /* Adjust the height of the line */
+    margin: 0 10px; /* Add some margin for spacing */
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.early-life > p:first-of-type {
+    margin-top: 0;
+}
+
+.accomplishments {
+    text-align: left;
+    font-size: 1.1em;
+    width: 70%;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+strong {
+    color: red;
+}
+
+.titles {
+    font-weight: 550;
+}
+
+.quote {
+    text-align: right;
+    font-style: italic;
+    background-color: #e0584f;
+    color: white;
+    border-radius: 5px;   
+    padding: 1px 10px 1px 10px;
+    font-weight: 550;
+    font-size: 1.1em;
+    width: fit-content;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+.quote-text {
+    margin-bottom: 1em; /* Add some space below the quote text */
+}
+
+
+.quote > p:last-of-type {
+    margin-top: -15px;
+    font-weight: 600;
+    color: black;
+}
+
+
+.more-information {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-right: 2em;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1em;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+    img {
+        max-width: 50%; /* Adjust the maximum width for desktop */
+    }
+
+    .early-life,
+    .accomplishments
+    {
+        max-width: 100%; /* Adjust the width for desktop */
+    }
+   
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+
+    .early-life, .accomplishments {
+        width: 90%;
+    }
+}
